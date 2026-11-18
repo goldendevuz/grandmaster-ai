@@ -1,0 +1,111 @@
+{
+  "_schema": {
+    "title": "Shaxmat masalalari va mashqlar",
+    "fields": [
+      { "key": "id", "type": "text", "label": "ID" },
+      { "key": "title", "type": "text", "label": "Masala nomi" },
+      { "key": "fen", "type": "text", "label": "FEN pozitsiyasi" },
+      { "key": "rating", "type": "number", "label": "Masala qiyinligi (ELO)" },
+      { "key": "solution", "type": "text", "label": "Yechim yurishlari" },
+      { "key": "theme", "type": "text", "label": "Taktik mavzu" }
+    ]
+  },
+  "items": [
+    {
+      "id": "puz-01",
+      "title": "Oxirgi qatordagi mot",
+      "fen": "6k1/5ppp/8/8/8/8/4QPPP/6K1 w - - 0 1",
+      "rating": 650,
+      "solution": "Qe8#",
+      "theme": "Oxirgi gorizontal zafari"
+    },
+    {
+      "id": "puz-02",
+      "title": "Smothered Mate (Dimlangan mot)",
+      "fen": "6k1/5Npp/8/8/8/8/4Q3/7K w - - 0 1",
+      "rating": 950,
+      "solution": "Qe8#",
+      "theme": "Ot va Vazir kombinatsiyasi"
+    },
+    {
+      "id": "puz-03",
+      "title": "Klassik ayri (Fork)",
+      "fen": "r1bqkb1r/pppp1ppp/2n5/4p3/2B1n3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "rating": 1100,
+      "solution": "Qe2 d5 Bd3",
+      "theme": "Ikki tomonlama zarba"
+    },
+    {
+      "id": "puz-04",
+      "title": "Bog'lanish kuchi (Pin)",
+      "fen": "r1b1k2r/pppq1ppp/2np1n2/4p3/1bB1P3/2NP1N2/PPP2PPP/R1BQK2R w KQkq - 0 6",
+      "rating": 1250,
+      "solution": "Bg5 h6 Bxf6",
+      "theme": "Absolyut bog'lanish"
+    },
+    {
+      "id": "puz-05",
+      "title": "Vazir qurbonligi",
+      "fen": "r1b2rk1/pp3ppp/2n5/8/2B5/5Q2/Pq3PPP/R3R1K1 w - - 0 16",
+      "rating": 1400,
+      "solution": "Qxf7+ Rxf7 Re8#",
+      "theme": "Qurbonlik va mat"
+    },
+    {
+      "id": "puz-06",
+      "title": "Piyoda o'tishi va aylanishi",
+      "fen": "8/4P3/8/8/8/4k3/8/4K3 w - - 0 1",
+      "rating": 1550,
+      "solution": "e8=Q+",
+      "theme": "Endshpil texnikasi"
+    },
+    {
+      "id": "puz-07",
+      "title": "Yashirin shoh (Discovered Check)",
+      "fen": "r1b1k2r/pppp1ppp/8/4q3/1bP5/2N1B3/PP2PPPP/R2QKB1R w KQkq - 0 8",
+      "rating": 1700,
+      "solution": "Bd4 Qa5 a3",
+      "theme": "Ochib berilgan shoh"
+    },
+    {
+      "id": "puz-08",
+      "title": "Zugtsvang tuzog'i",
+      "fen": "8/8/p1k5/Pp2p3/1P2P3/3K4/8/8 w - - 0 1",
+      "rating": 1850,
+      "solution": "Ke3 Kd6 Kf3 Ke6 Kg4",
+      "theme": "Yurish majburiyati"
+    },
+    {
+      "id": "puz-09",
+      "title": "Boden moti",
+      "fen": "2kr3r/pp3ppp/2p5/8/1b2B3/8/PP3PPP/R1B2RK1 w - - 0 15",
+      "rating": 2000,
+      "solution": "Bf5+ Rd7 Bf4",
+      "theme": "Ikki fil kombinatsiyasi"
+    },
+    {
+      "id": "puz-10",
+      "title": "Rombli qamal",
+      "fen": "r2q1rk1/1pp2ppp/p1np4/4p3/2B1P1b1/2NP1N2/PPP1QPPP/R4RK1 w - - 0 10",
+      "rating": 2150,
+      "solution": "Qe3 Bxf3 Qxf3 Nd4",
+      "theme": "Strategik himoya"
+    },
+    {
+      "id": "puz-11",
+      "title": "Grossmeysterlik kombinatsiyasi",
+      "fen": "r4rk1/1pq2ppp/p1nbpn2/3p4/3P4/1PPB1N1P/PB2QPP1/R4RK1 w - - 0 13",
+      "rating": 2350,
+      "solution": "c4 dxc4 bxc4 Rad8",
+      "theme": "Pozitsion yorib o'tish"
+    },
+    {
+      "id": "puz-12",
+      "title": "Afsonaviy chekinish",
+      "fen": "4r1k1/5ppp/8/8/8/5P2/6PP/4R1K1 w - - 0 1",
+      "rating": 2500,
+      "solution": "Rxe8#",
+      "theme": "Kombinatsion xotima"
+    }
+  ]
+}

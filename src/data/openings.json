@@ -1,0 +1,98 @@
+{
+  "_schema": {
+    "title": "Mashhur shaxmat debyutlari",
+    "fields": [
+      { "key": "id", "type": "text", "label": "ID" },
+      { "key": "name", "type": "text", "label": "Debyut nomi" },
+      { "key": "eco", "type": "text", "label": "ECO kodi" },
+      { "key": "moves", "type": "text", "label": "Dastlabki yurishlar" },
+      { "key": "description", "type": "textarea", "label": "Mazmuni va g'oyasi" }
+    ]
+  },
+  "items": [
+    {
+      "id": "op-01",
+      "name": "Sitsiliacha himoya (Sicilian Defense)",
+      "eco": "B20",
+      "moves": "1. e4 c5",
+      "description": "Eng ommabop va tajovuzkor javoblardan biri. Qoralar d4 katagiga asimmetrik qarshi kurash olib boradi."
+    },
+    {
+      "id": "op-02",
+      "name": "Fransuzcha himoya (French Defense)",
+      "eco": "C00",
+      "moves": "1. e4 e6 2. d4 d5",
+      "description": "Qoralar o'z markazini e6 va d5 piyodalari orqali mustahkamlab, qarshi hujumga o'tadi."
+    },
+    {
+      "id": "op-03",
+      "name": "Ruy Lopez (Ispancha partiya)",
+      "eco": "C60",
+      "moves": "1. e4 e5 2. Nf3 Nc6 3. Bb5",
+      "description": "Klassik shaxmatning shohi hisoblangan debyut. Oqlar c6 otiga bosim o'tkazib, e5 ni nishonga oladi."
+    },
+    {
+      "id": "op-04",
+      "name": "Italiyancha partiya (Giuoco Piano)",
+      "eco": "C50",
+      "moves": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+      "description": "Tezkor rivojlanish va f7 zaif nuqtasiga hujum uyushtirishga mo'ljallangan qadimiy uslub."
+    },
+    {
+      "id": "op-05",
+      "name": "Vazir gambiti (Queen's Gambit)",
+      "eco": "D06",
+      "moves": "1. d4 d5 2. c4",
+      "description": "Oqlar markaz ustidan to'liq nazorat o'rnatish uchun c4 piyodasini qurbon qilishni taklif qiladi."
+    },
+    {
+      "id": "op-06",
+      "name": "Qirol hindcha himoyasi (King's Indian)",
+      "eco": "E60",
+      "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7",
+      "description": "Gipozamonaviy debyut: qoralar markazni oqlarga berib, keyinchalik kuchli qanot hujumini boshlaydi."
+    },
+    {
+      "id": "op-07",
+      "name": "Karo-Kann himoyasi (Caro-Kann Defense)",
+      "eco": "B10",
+      "moves": "1. e4 c6 2. d4 d5",
+      "description": "Juda ishonchli va mustahkam himoya chizig'i. Qora fil qamalib qolmasdan ochiq harakat qila oladi."
+    },
+    {
+      "id": "op-08",
+      "name": "Inglizcha boshlanish (English Opening)",
+      "eco": "A10",
+      "moves": "1. c4",
+      "description": "Yon tomondan markazga ta'sir o'tkazishga qaratilgan chaqqon va ko'p qirrali boshlanish."
+    },
+    {
+      "id": "op-09",
+      "name": "Skandinavcha himoya (Scandinavian)",
+      "eco": "B01",
+      "moves": "1. e4 d5",
+      "description": "Birinchi yurishdanoq oqlarning markaziy piyodasiga to'g'ridan-to'g'ri zarba berish."
+    },
+    {
+      "id": "op-10",
+      "name": "Grünfeld himoyasi (Grünfeld Defense)",
+      "eco": "D80",
+      "moves": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+      "description": "Kuchli grossmeysterlarning sevimli quroli: markazdagi d5 orqali oqlar markaziga zarba."
+    },
+    {
+      "id": "op-11",
+      "name": "Slavyancha himoya (Slav Defense)",
+      "eco": "D10",
+      "moves": "1. d4 d5 2. c4 c6",
+      "description": "d5 nuqtasini c6 bilan qo'llab-quvvatlaydigan va ko'plab jahon chempionatlari partiyalarida sinalgan debyut."
+    },
+    {
+      "id": "op-12",
+      "name": "Reti boshlanishi (Réti Opening)",
+      "eco": "A04",
+      "moves": "1. Nf3 d5 2. c4",
+      "description": "Moslashuvchan va sekin pozitsion rivojlanishni ma'qul ko'ruvchi o'yinchilar uchun ideal."
+    }
+  ]
+}

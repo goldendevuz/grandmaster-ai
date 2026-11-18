@@ -1,0 +1,18 @@
+{
+  "_schema": {
+    "title": "Bot Tiers",
+    "fields": [
+      { "key": "id", "type": "text", "label": "ID" },
+      { "key": "label", "type": "text", "label": "Daraja nomi" },
+      { "key": "min", "type": "number", "label": "Minimal ELO" },
+      { "key": "max", "type": "number", "label": "Maksimal ELO" }
+    ]
+  },
+  "items": [
+    { "id": "all", "label": "Barchasi" },
+    { "id": "beginner", "label": "Boshlang'ich (400-900)", "min": 400, "max": 900 },
+    { "id": "club", "label": "Havaskor (1000-1500)", "min": 1000, "max": 1500 },
+    { "id": "master", "label": "Usta (1600-2200)", "min": 1600, "max": 2200 },
+    { "id": "gm", "label": "Grossmeyster (2300+)", "min": 2300, "max": 4000 }
+  ]
+}

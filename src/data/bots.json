@@ -1,0 +1,137 @@
+{
+  "_schema": {
+    "title": "Sun'iy intellekt botlari",
+    "fields": [
+      { "key": "id", "type": "text", "label": "ID raqami" },
+      { "key": "name", "type": "text", "label": "Bot ismi" },
+      { "key": "title", "type": "text", "label": "Shaxmat unvoni" },
+      { "key": "elo", "type": "number", "label": "ELO reytingi" },
+      { "key": "avatar", "type": "image", "label": "Rasmi" },
+      { "key": "personality", "type": "textarea", "label": "Xarakteri va falsafasi" },
+      { "key": "depth", "type": "number", "label": "Hisoblash chuqurligi" },
+      { "key": "playstyle", "type": "text", "label": "O'yin uslubi" }
+    ]
+  },
+  "items": [
+    {
+      "id": "bot-sardor",
+      "name": "Sardor",
+      "title": "Boshlang'ich",
+      "elo": 400,
+      "avatar": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8NHx8Y2hlc3MlMjBib2FyZCUyMHBpZWNlcyUyMGdhbWV8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Shaxmat donalarini yangi o'rganayotgan do'stona havaskor. Donalarni beparvolik bilan berib yuborishi mumkin.",
+      "depth": 1,
+      "playstyle": "Tartibsiz va xushchaqchaq"
+    },
+    {
+      "id": "bot-nodira",
+      "name": "Nodira",
+      "title": "O'quvchi",
+      "elo": 700,
+      "avatar": "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8NXx8Y2hlc3MlMjBib2FyZCUyMHBpZWNlcyUyMGdhbWV8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Maktab to'garagi a'zosi. Bolalar motini yaxshi biladi, lekin himoyada shoshiladi.",
+      "depth": 2,
+      "playstyle": "Tezkor hujumga moyil"
+    },
+    {
+      "id": "bot-jasur",
+      "name": "Jasur",
+      "title": "Havaskor",
+      "elo": 1000,
+      "avatar": "https://images.unsplash.com/photo-1523875194681-bedd468c58bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8Mnx8Y2hlc3MlMjBncmFuZG1hc3RlciUyMHN0cmF0ZWd5JTIwdGhpbmtpbmd8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Bog'da yoki choyxonada tez-tez shaxmat o'ynaydigan chaqqon o'yinchi. Piyodalar zanjirini yaxshi ko'radi.",
+      "depth": 3,
+      "playstyle": "Taktik hujumkor"
+    },
+    {
+      "id": "bot-umid",
+      "name": "Umid",
+      "title": "Klub o'yinchisi",
+      "elo": 1300,
+      "avatar": "https://images.unsplash.com/photo-1588412079929-790b9f593d8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8M3x8Y2hlc3MlMjBncmFuZG1hc3RlciUyMHN0cmF0ZWd5JTIwdGhpbmtpbmd8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Klub musobaqalarida qatnashadi. Debyut qoidalariga rioya qiladi va mot tuzoqlaridan qochadi.",
+      "depth": 4,
+      "playstyle": "Klassik va ehtiyotkor"
+    },
+    {
+      "id": "bot-zarina",
+      "name": "Zarina",
+      "title": "Strateg",
+      "elo": 1500,
+      "avatar": "https://images.unsplash.com/flagged/photo-1570551502611-c590dc45f644?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8NHx8Y2hlc3MlMjBncmFuZG1hc3RlciUyMHN0cmF0ZWd5JTIwdGhpbmtpbmd8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Qisqa kombinatsiyalarni juda tez hisoblaydi. Ochiq chiziqlarni qattiq ushlab turadi.",
+      "depth": 5,
+      "playstyle": "Pozitsion qamrov"
+    },
+    {
+      "id": "bot-temur",
+      "name": "Temur",
+      "title": "Sport ustaligiga nomzod",
+      "elo": 1800,
+      "avatar": "https://images.unsplash.com/photo-1613902863716-8a8a96fc1de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8NXx8Y2hlc3MlMjBncmFuZG1hc3RlciUyMHN0cmF0ZWd5JTIwdGhpbmtpbmd8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Kuchli intizomga ega shaxmatchi. Xatolaringizni kechirmaydi va endshpilni a'lo darajada o'ynaydi.",
+      "depth": 7,
+      "playstyle": "Qat'iy texnik"
+    },
+    {
+      "id": "bot-farrux",
+      "name": "Farrux Usta",
+      "title": "FIDE Ustasi (FM)",
+      "elo": 2100,
+      "avatar": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8MXx8Y2hlc3MlMjBib2FyZCUyMHBpZWNlcyUyMGdhbWV8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Ko'p yillik professional tajriba. Pozitsiyadagi nozik kuchlarni his qiladi.",
+      "depth": 9,
+      "playstyle": "Chuqur pozitsion"
+    },
+    {
+      "id": "bot-rustam",
+      "name": "Rustam",
+      "title": "Xalqaro Usta (IM)",
+      "elo": 2350,
+      "avatar": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8M3x8Y2hlc3MlMjBib2FyZCUyMHBpZWNlcyUyMGdhbWV8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Har bir katak uchun murosasiz kurashadi. Kuchli dinamik debyutlarni tanlaydi.",
+      "depth": 11,
+      "playstyle": "Dinamik va tajovuzkor"
+    },
+    {
+      "id": "bot-shohruh",
+      "name": "Shohruh GM",
+      "title": "Xalqaro Grossmeyster (GM)",
+      "elo": 2600,
+      "avatar": "https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8Mnx8Y2hlc3MlMjBib2FyZCUyMHBpZWNlcyUyMGdhbWV8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Dunyo miqyosidagi grossmeyster darajasi. Har qanday himoyani parchalab tashlay oladi.",
+      "depth": 14,
+      "playstyle": "Universal ustalik"
+    },
+    {
+      "id": "bot-toshkent-ai",
+      "name": "Toshkent AI",
+      "title": "Super GM",
+      "elo": 2850,
+      "avatar": "https://images.unsplash.com/photo-1585586463582-9518529ce322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8MXx8Y2hlc3MlMjBjbG9jayUyMHRpbWVyJTIwY29tcGV0aXRpb258ZW58MXwwfHx8MTc5NDk4NTQ0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Zamonaviy neyrotarmoqlar asosida o'rgatilgan sun'iy aql. Odamlar ko'rmaydigan noan'anaviy g'oyalarni topadi.",
+      "depth": 18,
+      "playstyle": "Mukammal hisob"
+    },
+    {
+      "id": "bot-amir-temur",
+      "name": "Temuriy Grossmeyster",
+      "title": "Afsona",
+      "elo": 3100,
+      "avatar": "https://images.unsplash.com/photo-1683673940036-106de8a52705?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8Mnx8Y2hlc3MlMjBjbG9jayUyMHRpbWVyJTIwY29tcGV0aXRpb258ZW58MXwwfHx8MTc5NDk4NTQ0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Tarixiy harbiy taktika va zamonaviy hisob-kitob uyg'unligi. Xatolar soni nolga teng.",
+      "depth": 22,
+      "playstyle": "Strategik bosim"
+    },
+    {
+      "id": "bot-neomind",
+      "name": "DeepNexus Engine",
+      "title": "Kvanto-AI",
+      "elo": 3500,
+      "avatar": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc1MDQ1fDB8MXxzZWFyY2h8MXx8Y2hlc3MlMjBib2FyZCUyMHBpZWNlcyUyMGdhbWV8ZW58MXwwfHx8MTc5NDk4NTQ0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "personality": "Shaxmatning mutlaq chegarasi. Hech qachon shaxsiy his-tuyg'ularga berilmaydi, har yurishi matematik aniq.",
+      "depth": 28,
+      "playstyle": "Mutlaq mukammallik"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_schema": {
+    "title": "Past Games",
+    "fields": [
+      { "key": "id", "type": "text", "label": "ID" },
+      { "key": "opponent", "type": "text", "label": "Raqib" },
+      { "key": "opponentElo", "type": "number", "label": "Raqib ELO" },
+      { "key": "result", "type": "text", "label": "Natija" },
+      { "key": "date", "type": "text", "label": "Sana" },
+      { "key": "movesCount", "type": "number", "label": "Yurishlar soni" },
+      { "key": "accuracyWhite", "type": "number", "label": "Oqlar aniqligi" },
+      { "key": "accuracyBlack", "type": "number", "label": "Qoralar aniqligi" },
+      { "key": "fen", "type": "text", "label": "FEN" },
+      { "key": "blunders", "type": "number", "label": "Qo'pol xatolar" },
+      { "key": "mistakes", "type": "number", "label": "Xatolar" },
+      { "key": "bestMoves", "type": "number", "label": "Eng yaxshi yurishlar" }
+    ]
+  },
+  "items": [
+    {
+      "id": "g-01",
+      "opponent": "Sardor (Boshlang'ich)",
+      "opponentElo": 400,
+      "result": "G'alaba",
+      "date": "Bugun, 14:20",
+      "movesCount": 24,
+      "accuracyWhite": 91.2,
+      "accuracyBlack": 64.5,
+      "fen": "r1bqk2r/pppp1ppp/2n5/4p3/2B1n3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "blunders": 0,
+      "mistakes": 2,
+      "bestMoves": 16,
+      "alternativeSuggestion": {
+        "movePlayed": "4. d3",
+        "engineMove": "4. Qe2!",
+        "diff": "+1.8",
+        "explanation": "Qe2 yurishi qora otni bog'laydi va markazda hal qiluvchi moddiy ustunlik beradi."
+      }
+    },
+    {
+      "id": "g-02",
+      "opponent": "Zarina (Strateg)",
+      "opponentElo": 1500,
+      "result": "Mag'lubiyat",
+      "date": "Kecha, 21:05",
+      "movesCount": 38,
+      "accuracyWhite": 74.8,
+      "accuracyBlack": 86.4,
+      "fen": "r1b2rk1/pp3ppp/2n5/8/2B5/5Q2/Pq3PPP/R3R1K1 w - - 0 16",
+      "blunders": 2,
+      "mistakes": 4,
+      "bestMoves": 11,
+      "alternativeSuggestion": {
+        "movePlayed": "16. Rab1",
+        "engineMove": "16. Qxf7+!",
+        "diff": "+6.4",
+        "explanation": "Vazir qurbonligi orqali 2 yurishda muqarrar mot qilish kombinatsiyasi mavjud edi."
+      }
+    },
+    {
+      "id": "g-03",
+      "opponent": "Toshkent AI (Super GM)",
+      "opponentElo": 2850,
+      "result": "Durang",
+      "date": "12 Mart, 18:30",
+      "movesCount": 52,
+      "accuracyWhite": 88.9,
+      "accuracyBlack": 89.4,
+      "fen": "8/8/p1k5/Pp2p3/1P2P3/3K4/8/8 w - - 0 1",
+      "blunders": 1,
+      "mistakes": 1,
+      "bestMoves": 22,
+      "alternativeSuggestion": {
+        "movePlayed": "32. Kd2",
+        "engineMove": "32. Ke3!",
+        "diff": "+0.4",
+        "explanation": "Qirolni markazlashtirish orqali zugtsvang holatini saqlab qolish imkoniyati bor edi."
+      }
+    }
+  ]
+}

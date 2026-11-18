@@ -1,0 +1,63 @@
+{
+  "_schema": {
+    "title": "Achievements",
+    "fields": [
+      { "key": "id", "type": "text", "label": "ID" },
+      { "key": "title", "type": "text", "label": "Sarlavha" },
+      { "key": "desc", "type": "textarea", "label": "Tavsif" },
+      { "key": "tier", "type": "text", "label": "Daraja" },
+      { "key": "targetType", "type": "text", "label": "Maqsad turi" },
+      { "key": "targetValue", "type": "number", "label": "Talab qilingan qiymat" }
+    ]
+  },
+  "items": [
+    {
+      "id": "ach-1",
+      "title": "Birinchi G'alaba",
+      "desc": "AI bot ustidan ilk ishonchli g'alaba",
+      "tier": "Boshlang'ich",
+      "targetType": "wins",
+      "targetValue": 1
+    },
+    {
+      "id": "ach-2",
+      "title": "Klub Chempioni",
+      "desc": "Kamida 25 ta g'alaba qozonish",
+      "tier": "O'rta",
+      "targetType": "wins",
+      "targetValue": 25
+    },
+    {
+      "id": "ach-3",
+      "title": "Grossmeyster Talabgori",
+      "desc": "1400+ ELO reytingiga ko'tarilish",
+      "tier": "Usta",
+      "targetType": "elo",
+      "targetValue": 1400
+    },
+    {
+      "id": "ach-4",
+      "title": "O'tkir Zehn",
+      "desc": "O'rtacha yurish aniqligini 80% dan oshirish",
+      "tier": "Taktik",
+      "targetType": "accuracy",
+      "targetValue": 80
+    },
+    {
+      "id": "ach-5",
+      "title": "Matonatli Qahramon",
+      "desc": "50 ta partiyada to'liq qatnashish",
+      "tier": "Sabr",
+      "targetType": "games",
+      "targetValue": 50
+    },
+    {
+      "id": "ach-6",
+      "title": "Titanlar Jangi",
+      "desc": "Grossmeyster (2400+) bot ustidan g'alaba",
+      "tier": "Afsona",
+      "targetType": "gm_win",
+      "targetValue": 1
+    }
+  ]
+}
